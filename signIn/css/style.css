@@ -1,0 +1,24 @@
+.main,
+.signUpForm,
+.formContainer {
+  height: 100vh;
+}
+
+/* background-color: #333; */
+/* background-color: #5a5a5a; */
+
+.logo {
+  height: 100vh;
+  font-family: 'Cairo',
+    sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
+  font-family: 'Sansita Swashed',
+    cursive;
+}
+
+.forgetPassword {
+  margin-right: 60px;
+  margin-bottom: 10px;
+
+}

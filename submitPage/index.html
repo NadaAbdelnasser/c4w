@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit_Page</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Sansita+Swashed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Main Bar -->
+    <div class="d-flex justify-content-center">
+        <div class="bar w-100  position-fixed container-fluid px-5 align-items-center     ">
+
+
+            <div class="row align-items-center d-flex h-100 ">
+
+                <div class="logo d-flex col-2 align-items-center  mx-5 rounded h-75   ">
+                    <i class="fa-regular fa-lightbulb fa-2x mx-3 logoIcon"></i>
+                    <h3 class="logoText">My Idea</h3>
+                </div>
+                <div class="col-2"></div>
+                <div class="iconsBar d-flex col-6 ">
+
+                    <i class="fa-solid fa-house fa-2x mx-2 homeIcon"></i>
+                    <h3 class="mr-3 text-decoration-none"><a class="text-decoration-none text-dark"
+                            href="../homePage/index.html">Home</a>
+                    </h3>
+
+                    <i class="fa-solid fa-circle-plus fa-2x mx-2 addIcon"></i>
+                    <h3 class="mr-3"> <a class="text-decoration-none text-dark" href="../addPage/index.html">Add</a>
+                    </h3>
+
+                    <i class="fa-solid fa-user fa-2x mx-2 profileIcon"></i>
+                    <h3 class="mr-3"> <a class="text-decoration-none text-dark"
+                            href="../profilePage/index.html">Profile</a>
+                    </h3>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End Of Main Bar -->
+    <!-- ------------------------------------------------------- -->
+    <!-- Container of Posts -->
+    <div class="container">
+        <div class="row  justify-content-end p-right ">
+            <div class="post col-8  p-5 container-fluid border border-dark rounded ">
+                <div class="row mb-5">
+                    <div class="col-2  m-0 ">
+                        <i class="fa-regular fa-circle-user fa-4x  m-0 userPhoto "></i>
+                    </div>
+                    <div class="col-6  p-0 ">
+                        <div class="icon-close">
+                            <i id="closeBtn" class="fa-solid fa-xmark"></i>
+                        </div>
+                        <h4 class="userName"><a class="text-dark" href=""><span id="userName"></span></a> </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deleniti
+                            odit
+                            numquam
+                            explicabo! Aperiam
+                            asperiores fugit amet mollitia tempora quaerat vel quisquam distinctio neque, quod,
+                            nesciunt labore
+                            voluptatibus sit iusto?
+                        </p>
+                    </div>
+                </div>
+                <div class="p-3 ">
+                    <textarea placeholder="Type Your Idea Here..." class="border border-dark rounded p-3 box-2 w-100"
+                        name="" id="" cols="50" rows="5"></textarea>
+                </div>
+                <div class="text-center  ">
+                    <button class="submitButton btn btn-outline-dark btn-lg m-top">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Container of Posts -->
+    <!-- ------------------------------------------------------- -->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

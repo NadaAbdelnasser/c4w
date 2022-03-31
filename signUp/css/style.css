@@ -1,0 +1,41 @@
+.main,
+.signUpForm,
+.formContainer {
+  height: 100vh;
+}
+
+.logo {
+  height: 100vh;
+  font-family: 'Cairo',
+    sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
+  font-family: 'Sansita Swashed',
+    cursive;
+}
+
+.backArrow {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  cursor: pointer;
+
+}
+
+.backIcon:hover {
+  background-color: #fff !important;
+}
+
+.slogan {
+  width: 400px;
+  bottom: 100px;
+  left: 300px;
+  font-family: 'Cairo',
+    sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
+  font-family: 'Sansita Swashed',
+    cursive;
+
+
+}
